@@ -17,7 +17,7 @@ try:
                         last_digit = int(char)
             combined_number = int(str(first_digit) + str(last_digit))
             final_num += combined_number
-        print(final_num)
+        print("Advent of Code Day 1 Part 1 answer: " + str(final_num))
 except FileNotFoundError:
     print(f"File not found: {file_path}")
 except Exception as e:
